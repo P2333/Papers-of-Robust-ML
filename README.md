@@ -27,7 +27,7 @@
 ## Verification
 * [Provable Defenses against Adversarial Examples via the Convex Outer Adversarial Polytope](https://arxiv.org/pdf/1711.00851.pdf) (ICML 2018) <br/> By robust optimization (via a linear program), they can get a point-wise bound of robustness, where no adversarial example exists in the bound. Experiments are done on MNIST.
 
-* [Scaling provable adversarial defenses](http://papers.nips.cc/paper/8060-scaling-provable-adversarial-defenses.pdf) (NeurIPS 2018) <br/> They add three tricks to improve the scalability of previously proposed method. Experiments are done on MNIST and CIFAR-10.
+* [Scaling Provable Adversarial Defenses](http://papers.nips.cc/paper/8060-scaling-provable-adversarial-defenses.pdf) (NeurIPS 2018) <br/> They add three tricks to improve the scalability of previously proposed method. Experiments are done on MNIST and CIFAR-10.
 
 <a id='Theoretical'></a>
 ## Theoretical Analysis
