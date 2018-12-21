@@ -6,6 +6,7 @@
 - <a href="#Detection">Adversarial Detection</a><br>
 - <a href="#Verification">Verification</a><br>
 - <a href="#Theoretical">Theoretical Analysis</a><br>
+- <a href="#Empirical">Empirical Analysis</a><br>
 
 <a id='General'></a>
 ## General Defenses
@@ -37,3 +38,7 @@
 * [Robustness of Classifiers:from Adversarial to Random Noise](http://papers.nips.cc/paper/6331-robustness-of-classifiers-from-adversarial-to-random-noise.pdf) (NeurIPS 2016)
 
 * [Adversarial Vulnerability for Any Classifier](http://papers.nips.cc/paper/7394-adversarial-vulnerability-for-any-classifier.pdf) (NeurIPS 2018) <br/> Uniform upper bound of robustness for any classifier on the data sampled from smooth genertive models.
+
+<a id='Empirical'></a>
+## Empirical Analysis
+* [Adversarial Example Defenses: Ensembles of Weak Defenses are not Strong](https://arxiv.org/pdf/1706.04701.pdf) <br/> This paper tests some ensemble of existing detection-based defenses, and claim that these ensemble defenses could still be evade by white-box attacks.
