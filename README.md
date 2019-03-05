@@ -43,6 +43,8 @@ hour'), which shows large improvement than previous SOTA trained with 50 GPUs.
 
 * [Adversarial Vulnerability for Any Classifier](http://papers.nips.cc/paper/7394-adversarial-vulnerability-for-any-classifier.pdf) (NeurIPS 2018) <br/> Uniform upper bound of robustness for any classifier on the data sampled from smooth genertive models.
 
+* [Adversarially Robust Generalization Requires More Data](http://papers.nips.cc/paper/7749-adversarially-robust-generalization-requires-more-data.pdf) (NeurIPS 2018) <br/> This paper show that robust generalization requires much more sample complexity compared to standard generlization on two simple data distributional models. 
+
 <a id='Empirical'></a>
 ## Empirical Analysis
 * [Adversarial Example Defenses: Ensembles of Weak Defenses are not Strong](https://arxiv.org/pdf/1706.04701.pdf) <br/> This paper tests some ensemble of existing detection-based defenses, and claim that these ensemble defenses could still be evade by white-box attacks.
