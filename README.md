@@ -39,6 +39,8 @@ hour'), which shows large improvement than previous SOTA trained with 50 GPUs.
 
 <a id='Theoretical'></a>
 ## Theoretical Analysis
+* [On Evaluating Adversarial Robustness](https://arxiv.org/pdf/1902.06705.pdf) Some analyses on how to correctly evaluate the robustness of adversarial defenses.
+
 * [Robustness of Classifiers:from Adversarial to Random Noise](http://papers.nips.cc/paper/6331-robustness-of-classifiers-from-adversarial-to-random-noise.pdf) (NeurIPS 2016)
 
 * [Adversarial Vulnerability for Any Classifier](http://papers.nips.cc/paper/7394-adversarial-vulnerability-for-any-classifier.pdf) (NeurIPS 2018) <br/> Uniform upper bound of robustness for any classifier on the data sampled from smooth genertive models.
