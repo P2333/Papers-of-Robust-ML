@@ -10,6 +10,8 @@
 
 <a id='General'></a>
 ## General Defenses
+* [Adversarial Training for Free!](https://arxiv.org/pdf/1904.12843.pdf) A fast method for adversarial training, which shares the back-propogation gradients of updating weighs and crafting adversarial examples.
+
 * [Improving Adversarial Robustness via Promoting Ensemble Diversity](https://arxiv.org/pdf/1901.08846.pdf) (ICML 2019) <br/> Previous work constructs ensemble defenses by individually enhancing each memeber and then directly average the predictions. In this work, the authors propose the adaptive diversity promoting (ADP) to further improve the robustness by promoting the ensemble diveristy, as an orthogonal methods compared to other defenses.
 
 * [Ensemble Adversarial Training- Attacks and Defenses](https://arxiv.org/pdf/1705.07204.pdf) (ICLR 2018) <br/> Ensemble adversarial training use sevel pre-trained models, and in each training batch, they randomly select one of the currently trained model or pre-trained models to craft adversarial examples.
