@@ -10,6 +10,8 @@
 
 <a id='General'></a>
 ## General Defenses
+* [Barrage of Random Transforms for Adversarially Robust Defense](http://openaccess.thecvf.com/content_CVPR_2019/html/Raff_Barrage_of_Random_Transforms_for_Adversarially_Robust_Defense_CVPR_2019_paper.html) (CVPR 2019) <br/> This paper applies a set of different random transformations as an off-the-shelf defense.
+
 * [Interpolated Adversarial Training: Achieving Robust Neural Networks without Sacrificing Accuracy](https://arxiv.org/pdf/1906.06784.pdf) <br/> This paper introduces the mixup method into adversarial training to improve the model performance on clean images.
 
 * [Robust Decision Trees Against Adversarial Examples](http://web.cs.ucla.edu/~chohsieh/ICML_2019_TreeAdvAttack.pdf) (ICML 2019) <br/> A method to enhance the robustness of tree models, including GBDTs.
