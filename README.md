@@ -63,4 +63,6 @@ hour'), which shows large improvement than previous SOTA trained with 50 GPUs.
 
 <a id='Empirical'></a>
 ## Empirical Analysis
+* [Countering Adversarial Images Using Input Transformations](https://arxiv.org/pdf/1711.00117.pdf) (ICLR 2018) <br/> Apply bit-depth reduction, JPEG compression, total variance minimization and image quilting as input preprocessing to defend adversarial attacks.
+
 * [Adversarial Example Defenses: Ensembles of Weak Defenses are not Strong](https://arxiv.org/pdf/1706.04701.pdf) <br/> This paper tests some ensemble of existing detection-based defenses, and claim that these ensemble defenses could still be evade by white-box attacks.
