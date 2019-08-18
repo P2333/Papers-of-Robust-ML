@@ -15,9 +15,9 @@
 
 * [Interpolated Adversarial Training: Achieving Robust Neural Networks without Sacrificing Accuracy](https://arxiv.org/pdf/1906.06784.pdf) <br/> This paper introduces the mixup method into adversarial training to improve the model performance on clean images.
 
-* [Theoretically Principled Trade-off between Robustness and Accuracy](http://web.cs.ucla.edu/~chohsieh/ICML_2019_TreeAdvAttack.pdf) (ICML 2019) <br/> A variant of adversarial training: TRADES, which won the defense track of NeurIPS 2018 Adversarial Competation.
+* [Theoretically Principled Trade-off between Robustness and Accuracy](https://arxiv.org/pdf/1901.08573.pdf) (ICML 2019) <br/> A variant of adversarial training: TRADES, which won the defense track of NeurIPS 2018 Adversarial Competation.
 
-* [Robust Decision Trees Against Adversarial Examples](https://arxiv.org/pdf/1901.08573.pdf) (ICML 2019) <br/> AA method to enhance the robustness of tree models, including GBDTs.
+* [Robust Decision Trees Against Adversarial Examples](http://web.cs.ucla.edu/~chohsieh/ICML_2019_TreeAdvAttack.pdf) (ICML 2019) <br/> A method to enhance the robustness of tree models, including GBDTs.
 
 * [Adversarial Training for Free!](https://arxiv.org/pdf/1904.12843.pdf) <br/> A fast method for adversarial training, which shares the back-propogation gradients of updating weighs and crafting adversarial examples.
 
