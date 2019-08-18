@@ -2,19 +2,22 @@
  Related papers for robust machine learning
 
 ## Contents 
-- <a href="#General">General Defenses</a><br>
+- <a href="#General_training">General Defenses (training phase)</a><br>
+- <a href="#General_inference">General Defenses (inference phase)</a><br>
 - <a href="#Detection">Adversarial Detection</a><br>
 - <a href="#Verification">Verification</a><br>
 - <a href="#Theoretical">Theoretical Analysis</a><br>
 - <a href="#Empirical">Empirical Analysis</a><br>
 
-<a id='General'></a>
-## General Defenses
-* [Barrage of Random Transforms for Adversarially Robust Defense](http://openaccess.thecvf.com/content_CVPR_2019/papers/Raff_Barrage_of_Random_Transforms_for_Adversarially_Robust_Defense_CVPR_2019_paper.pdf) (CVPR 2019) <br/> This paper applies a set of different random transformations as an off-the-shelf defense.
+<a id='General_training'></a>
+## General Defenses (training phase)
+* [Rethinking Softmax Cross-Entropy Loss for Adversarial Robustness ](https://arxiv.org/pdf/1905.10626.pdf) <br/> This paper rethink the drawbacks of softmax cross-entropy in the adversarial setting, and propose the MMC method to induce high-density regions in the feature space.
 
 * [Interpolated Adversarial Training: Achieving Robust Neural Networks without Sacrificing Accuracy](https://arxiv.org/pdf/1906.06784.pdf) <br/> This paper introduces the mixup method into adversarial training to improve the model performance on clean images.
 
-* [Robust Decision Trees Against Adversarial Examples](http://web.cs.ucla.edu/~chohsieh/ICML_2019_TreeAdvAttack.pdf) (ICML 2019) <br/> A method to enhance the robustness of tree models, including GBDTs.
+* [Theoretically Principled Trade-off between Robustness and Accuracy](http://web.cs.ucla.edu/~chohsieh/ICML_2019_TreeAdvAttack.pdf) (ICML 2019) <br/> A method to enhance the robustness of tree models, including GBDTs.
+
+* [Robust Decision Trees Against Adversarial Examples](https://arxiv.org/pdf/1901.08573.pdf) (ICML 2019) <br/> A variant of adversarial training: TRADES, which won the defense track of NeurIPS 2018 Adversarial Competation.
 
 * [Adversarial Training for Free!](https://arxiv.org/pdf/1904.12843.pdf) <br/> A fast method for adversarial training, which shares the back-propogation gradients of updating weighs and crafting adversarial examples.
 
@@ -30,6 +33,14 @@
 
 * [Feature Denoising for Improving Adversarial Robustness](https://arxiv.org/pdf/1812.03411.pdf) (CVPR 2019) <br/> This paper applies non-local neural network and large-scale adversarial training with 128 GPUs (with training trick in 'Accurate, large minibatch SGD: Training ImageNet in 1
 hour'), which shows large improvement than previous SOTA trained with 50 GPUs.
+
+<a id='General_inference'></a>
+## General Defenses (inference phase)
+* [Barrage of Random Transforms for Adversarially Robust Defense](http://openaccess.thecvf.com/content_CVPR_2019/papers/Raff_Barrage_of_Random_Transforms_for_Adversarially_Robust_Defense_CVPR_2019_paper.pdf) (CVPR 2019) <br/> This paper applies a set of different random transformations as an off-the-shelf defense.
+
+* [Mitigating Adversarial Effects Through Randomization](https://arxiv.org/pdf/1711.01991.pdf) (ICLR 2018) <br/> Use random resizing and random padding to disturb adversarial examples, which won the 2nd place in th defense track of NeurIPS 2017 Adversarial Competation.
+
+* [Countering Adversarial Images Using Input Transformations](https://arxiv.org/pdf/1711.00117.pdf) (ICLR 2018) <br/> Apply bit-depth reduction, JPEG compression, total variance minimization and image quilting as input preprocessing to defend adversarial attacks.
 
 <a id='Detection'></a>
 ## Adversarial Detection
@@ -63,6 +74,4 @@ hour'), which shows large improvement than previous SOTA trained with 50 GPUs.
 
 <a id='Empirical'></a>
 ## Empirical Analysis
-* [Countering Adversarial Images Using Input Transformations](https://arxiv.org/pdf/1711.00117.pdf) (ICLR 2018) <br/> Apply bit-depth reduction, JPEG compression, total variance minimization and image quilting as input preprocessing to defend adversarial attacks.
-
 * [Adversarial Example Defenses: Ensembles of Weak Defenses are not Strong](https://arxiv.org/pdf/1706.04701.pdf) <br/> This paper tests some ensemble of existing detection-based defenses, and claim that these ensemble defenses could still be evade by white-box attacks.
