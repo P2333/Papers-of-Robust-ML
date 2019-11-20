@@ -11,6 +11,8 @@
 
 <a id='General_training'></a>
 ## General Defenses (training phase)
+* [Provably Robust Boosted Decision Stumps and Trees against Adversarial Attacks](https://arxiv.org/pdf/1906.03526.pdf) (NeurIPS 2019) <br/> A method to efficiently certify the robustness of GBDTs and to integrate the certificate into training (leads to an upper bound on the worst-case loss). The obtained certified accuracy is higher than for other robust GBDTs and is competitive to provably robust CNNs.
+
 * [Intriguing Properties of Adversarial Training at Scale](https://openreview.net/forum?id=HyxJhCEFDS&noteId=rJxeamAAKB) (ICLR 2020) <br/> This paper investigates the effects of BN and deeper models for adversarial training on ImageNet.
 
 * [You Only Propagate Once: Accelerating Adversarial Training via Maximal Principle](https://arxiv.org/pdf/1905.00877.pdf) (NeurIPS 2019) <br/> This paper provides a fast method for adversarial training from the perspective of optimal control.
