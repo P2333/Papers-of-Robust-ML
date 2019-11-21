@@ -8,18 +8,20 @@
 - <a href="#Verification">Verification</a><br>
 - <a href="#Theoretical">Theoretical Analysis</a><br>
 - <a href="#Empirical">Empirical Analysis</a><br>
+- <a href="#Seminal_work">Seminal Work</a><br>
+
 
 <a id='General_training'></a>
 ## General Defenses (training phase)
-* [Provably Robust Boosted Decision Stumps and Trees against Adversarial Attacks](https://arxiv.org/pdf/1906.03526.pdf) (NeurIPS 2019) <br/> A method to efficiently certify the robustness of GBDTs and to integrate the certificate into training (leads to an upper bound on the worst-case loss). The obtained certified accuracy is higher than for other robust GBDTs and is competitive to provably robust CNNs.
+* [Rethinking Softmax Cross-Entropy Loss for Adversarial Robustness ](https://arxiv.org/pdf/1905.10626.pdf) (ICLR 2020) <br/> This paper rethink the drawbacks of softmax cross-entropy in the adversarial setting, and propose the MMC method to induce high-density regions in the feature space.
 
-* [Intriguing Properties of Adversarial Training at Scale](https://openreview.net/forum?id=HyxJhCEFDS&noteId=rJxeamAAKB) (ICLR 2020) <br/> This paper investigates the effects of BN and deeper models for adversarial training on ImageNet.
+* [Interpolated Adversarial Training: Achieving Robust Neural Networks without Sacrificing Accuracy](https://arxiv.org/pdf/1906.06784.pdf) (ICLR 2020) <br/> This paper introduces the mixup method into adversarial training to improve the model performance on clean images.
+
+* [Provably Robust Boosted Decision Stumps and Trees against Adversarial Attacks](https://arxiv.org/pdf/1906.03526.pdf) (NeurIPS 2019) <br/> A method to efficiently certify the robustness of GBDTs and to integrate the certificate into training (leads to an upper bound on the worst-case loss). The obtained certified accuracy is higher than for other robust GBDTs and is competitive to provably robust CNNs.
 
 * [You Only Propagate Once: Accelerating Adversarial Training via Maximal Principle](https://arxiv.org/pdf/1905.00877.pdf) (NeurIPS 2019) <br/> This paper provides a fast method for adversarial training from the perspective of optimal control.
 
-* [Rethinking Softmax Cross-Entropy Loss for Adversarial Robustness ](https://arxiv.org/pdf/1905.10626.pdf) <br/> This paper rethink the drawbacks of softmax cross-entropy in the adversarial setting, and propose the MMC method to induce high-density regions in the feature space.
-
-* [Interpolated Adversarial Training: Achieving Robust Neural Networks without Sacrificing Accuracy](https://arxiv.org/pdf/1906.06784.pdf) <br/> This paper introduces the mixup method into adversarial training to improve the model performance on clean images.
+* [Adversarial Training for Free!](https://arxiv.org/pdf/1904.12843.pdf) (NeurIPS 2019) <br/> A fast method for adversarial training, which shares the back-propogation gradients of updating weighs and crafting adversarial examples.
 
 * [Using Pre-Training Can Improve Model Robustness and Uncertainty](https://arxiv.org/abs/1901.09960) (ICML 2019) <br/>
 This paper shows adversarial robustness can transfer and that adversarial pretraining can increase adversarial robustness by ~10% accuracy.
@@ -28,13 +30,9 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 * [Robust Decision Trees Against Adversarial Examples](http://web.cs.ucla.edu/~chohsieh/ICML_2019_TreeAdvAttack.pdf) (ICML 2019) <br/> A method to enhance the robustness of tree models, including GBDTs.
 
-* [Adversarial Training for Free!](https://arxiv.org/pdf/1904.12843.pdf) (NeurIPS 2019) <br/> A fast method for adversarial training, which shares the back-propogation gradients of updating weighs and crafting adversarial examples.
-
 * [Improving Adversarial Robustness via Promoting Ensemble Diversity](https://arxiv.org/pdf/1901.08846.pdf) (ICML 2019) <br/> Previous work constructs ensemble defenses by individually enhancing each memeber and then directly average the predictions. In this work, the authors propose the adaptive diversity promoting (ADP) to further improve the robustness by promoting the ensemble diveristy, as an orthogonal methods compared to other defenses.
 
-* [Ensemble Adversarial Training- Attacks and Defenses](https://arxiv.org/pdf/1705.07204.pdf) (ICLR 2018) <br/> Ensemble adversarial training use sevel pre-trained models, and in each training batch, they randomly select one of the currently trained model or pre-trained models to craft adversarial examples.
-
-* [Max-Mahalanobis Linear Discriminant Analysis Networks](http://proceedings.mlr.press/v80/pang18a/pang18a.pdf) (ICML 2018) <br/> This is one of our work. We explicitly model the feature distribution as a Max-Mahalanobis distribution (MMD), which has max margin among classes and can lead to guaranteed robustness.
+* [Feature Denoising for Improving Adversarial Robustness](https://arxiv.org/pdf/1812.03411.pdf) (CVPR 2019) <br/> This paper applies non-local neural network and large-scale adversarial training with 128 GPUs (with training trick in 'Accurate, large minibatch SGD: Training ImageNet in 1 hour'), which shows large improvement than previous SOTA trained with 50 GPUs.
 
 * [A Spectral View of Adversarially Robust Features](http://papers.nips.cc/paper/8217-a-spectral-view-of-adversarially-robust-features.pdf) (NeurIPS 2018) <br/> Given the entire dataset X, use the eigenvectors of spectral graph as robust features. [[Appendix](http://papers.nips.cc/paper/8217-a-spectral-view-of-adversarially-robust-features-supplemental.zip)]
 
@@ -42,13 +40,16 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 * [Deep Defense: Training DNNs with Improved Adversarial Robustness](http://papers.nips.cc/paper/7324-deep-defense-training-dnns-with-improved-adversarial-robustness.pdf) (NeurIPS 2018) <br/> They follow the linear assumption in DeepFool method. DeepDefense pushes decision boundary away from those correctly classified, and pull decision boundary closer to those misclassified.
 
-* [Feature Denoising for Improving Adversarial Robustness](https://arxiv.org/pdf/1812.03411.pdf) (CVPR 2019) <br/> This paper applies non-local neural network and large-scale adversarial training with 128 GPUs (with training trick in 'Accurate, large minibatch SGD: Training ImageNet in 1
-hour'), which shows large improvement than previous SOTA trained with 50 GPUs.
+* [Max-Mahalanobis Linear Discriminant Analysis Networks](http://proceedings.mlr.press/v80/pang18a/pang18a.pdf) (ICML 2018) <br/> This is one of our work. We explicitly model the feature distribution as a Max-Mahalanobis distribution (MMD), which has max margin among classes and can lead to guaranteed robustness.
 
-* [Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/pdf/1706.06083.pdf) (ICLR 2018) <br/> This paper proposed projected gradient descent (PGD) attack, and the PGD-based adversarial training.
+* [Ensemble Adversarial Training- Attacks and Defenses](https://arxiv.org/pdf/1705.07204.pdf) (ICLR 2018) <br/> Ensemble adversarial training use sevel pre-trained models, and in each training batch, they randomly select one of the currently trained model or pre-trained models to craft adversarial examples.
+
+* [Pixeldefend: Leveraging generative models to understand and defend against adversarial examples](https://arxiv.org/abs/1710.10766) (ICLR 2018) <br/> This paper provided defense by moving adversarial examples back towards the distribution seen in the training data.
 
 <a id='General_inference'></a>
 ## General Defenses (inference phase)
+* [Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks](https://arxiv.org/abs/1909.11515) (ICLR 2020) <br/> This paper exploit the mixup mechanism in the inference phase to improve robustness.
+
 * [Barrage of Random Transforms for Adversarially Robust Defense](http://openaccess.thecvf.com/content_CVPR_2019/papers/Raff_Barrage_of_Random_Transforms_for_Adversarially_Robust_Defense_CVPR_2019_paper.pdf) (CVPR 2019) <br/> This paper applies a set of different random transformations as an off-the-shelf defense.
 
 * [Mitigating Adversarial Effects Through Randomization](https://arxiv.org/pdf/1711.01991.pdf) (ICLR 2018) <br/> Use random resizing and random padding to disturb adversarial examples, which won the 2nd place in th defense track of NeurIPS 2017 Adversarial Competation.
@@ -73,18 +74,30 @@ hour'), which shows large improvement than previous SOTA trained with 50 GPUs.
 
 <a id='Theoretical'></a>
 ## Theoretical Analysis
-* [Adversarial Examples Are a Natural Consequence of Test Error in Noise](https://arxiv.org/pdf/1901.10513.pdf) (ICML 2019) <br/> This paper connects the relation between the general corruption robustness and the adversarial robustness, and recommand the adversarial defenses methods to be also tested on general-purpose noises.
-
 * [Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/pdf/1905.02175.pdf) (NeurIPS 2019) <br/> They claim that adversarial examples can be directly attributed to the presence of non-robust features, which are highly predictive but locally quite sensitive.
 
-* [On Evaluating Adversarial Robustness](https://arxiv.org/pdf/1902.06705.pdf) <br/> Some analyses on how to correctly evaluate the robustness of adversarial defenses.
-
-* [Robustness of Classifiers:from Adversarial to Random Noise](http://papers.nips.cc/paper/6331-robustness-of-classifiers-from-adversarial-to-random-noise.pdf) (NeurIPS 2016)
+* [Adversarial Examples Are a Natural Consequence of Test Error in Noise](https://arxiv.org/pdf/1901.10513.pdf) (ICML 2019) <br/> This paper connects the relation between the general corruption robustness and the adversarial robustness, and recommand the adversarial defenses methods to be also tested on general-purpose noises.
 
 * [Adversarial Vulnerability for Any Classifier](http://papers.nips.cc/paper/7394-adversarial-vulnerability-for-any-classifier.pdf) (NeurIPS 2018) <br/> Uniform upper bound of robustness for any classifier on the data sampled from smooth genertive models.
 
 * [Adversarially Robust Generalization Requires More Data](http://papers.nips.cc/paper/7749-adversarially-robust-generalization-requires-more-data.pdf) (NeurIPS 2018) <br/> This paper show that robust generalization requires much more sample complexity compared to standard generlization on two simple data distributional models. 
 
+* [Robustness of Classifiers:from Adversarial to Random Noise](http://papers.nips.cc/paper/6331-robustness-of-classifiers-from-adversarial-to-random-noise.pdf) (NeurIPS 2016)
+
 <a id='Empirical'></a>
 ## Empirical Analysis
+* [Intriguing Properties of Adversarial Training at Scale](https://openreview.net/forum?id=HyxJhCEFDS&noteId=rJxeamAAKB) (ICLR 2020) <br/> This paper investigates the effects of BN and deeper models for adversarial training on ImageNet.
+
+* [On Evaluating Adversarial Robustness](https://arxiv.org/pdf/1902.06705.pdf) <br/> Some analyses on how to correctly evaluate the robustness of adversarial defenses.
+
 * [Adversarial Example Defenses: Ensembles of Weak Defenses are not Strong](https://arxiv.org/pdf/1706.04701.pdf) <br/> This paper tests some ensemble of existing detection-based defenses, and claim that these ensemble defenses could still be evade by white-box attacks.
+
+<a id='Seminal_work'></a>
+## Seminal Work
+* [Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/pdf/1706.06083.pdf) (ICLR 2018) <br/> This paper proposed projected gradient descent (PGD) attack, and the PGD-based adversarial training.
+
+* [Adversarial examples are not easily detected: Bypassing ten detection methods](https://dl.acm.org/citation.cfm?Id=3140444) (AISec 17) <br/> This paper first desgined different adaptive attacks for detection-based methods.
+
+* [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) (ICLR 2015) <br/> This paper proposed fast gradient sign method (FGSM), and the framework of adversarial training.
+
+* [Intriguing properties of neural networks](https://arxiv.org/abs/1312.6199) (ICLR 2014) <br/> This paper first introduced the concept of adversarial examples in deep learning, and provided a L-BFGS based attack method.
