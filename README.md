@@ -22,6 +22,10 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 
 * [Interpolated Adversarial Training: Achieving Robust Neural Networks without Sacrificing Accuracy](https://arxiv.org/pdf/1906.06784.pdf) (ICLR 2020) <br/> This paper introduces the mixup method into adversarial training to improve the model performance on clean images.
 
+* [Are labels required for improving adversarial robustness?](https://arxiv.org/pdf/1905.13725.pdf) (NeurIPS 2019) <br/> This paper exploit unlabeled data to better improve adversarial robustness.
+
+* [Adversarial Robustness through Local Linearization](https://arxiv.org/pdf/1907.02610.pdf) (NeurIPS 2019) <br/> This paper introduce local linearization in adversarial training process.
+
 * [Provably Robust Boosted Decision Stumps and Trees against Adversarial Attacks](https://arxiv.org/pdf/1906.03526.pdf) (NeurIPS 2019) <br/> A method to efficiently certify the robustness of GBDTs and to integrate the certificate into training (leads to an upper bound on the worst-case loss). The obtained certified accuracy is higher than for other robust GBDTs and is competitive to provably robust CNNs.
 
 * [You Only Propagate Once: Accelerating Adversarial Training via Maximal Principle](https://arxiv.org/pdf/1905.00877.pdf) (NeurIPS 2019) <br/> This paper provides a fast method for adversarial training from the perspective of optimal control.
