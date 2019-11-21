@@ -2,7 +2,7 @@
 Related papers for robust machine learning (we mainly focus on defenses).
  
 # Statement
-Since there are tens of new papers on adversarial defense in each conference, we will only update those we just read and consider as insightful. Anyone is welcomed to submit a pull request for the related and unlisted papers on adversarial defense, which are pulished on peer-review conferences (ICML/NeurIPS/ICLR/CVPR etc.) or released on arXiv.
+Since there are tens of new papers on adversarial defense in each conference, we are only able to update those we just read and consider as insightful. Anyone is welcomed to submit a pull request for the related and unlisted papers on adversarial defense, which are pulished on peer-review conferences (ICML/NeurIPS/ICLR/CVPR etc.) or released on arXiv.
 
 ## Contents 
 - <a href="#General_training">General Defenses (training phase)</a><br>
