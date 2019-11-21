@@ -18,9 +18,9 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 
 <a id='General_training'></a>
 ## General Defenses (training phase)
-* [Rethinking Softmax Cross-Entropy Loss for Adversarial Robustness ](https://arxiv.org/pdf/1905.10626.pdf) (ICLR 2020) <br/> This paper rethink the drawbacks of softmax cross-entropy in the adversarial setting, and propose the MMC method to induce high-density regions in the feature space.
+* [Rethinking Softmax Cross-Entropy Loss for Adversarial Robustness](https://openreview.net/forum?id=Byg9A24tvB) (ICLR 2020) <br/> This paper rethink the drawbacks of softmax cross-entropy in the adversarial setting, and propose the MMC method to induce high-density regions in the feature space.
 
-* [Interpolated Adversarial Training: Achieving Robust Neural Networks without Sacrificing Accuracy](https://arxiv.org/pdf/1906.06784.pdf) (ICLR 2020) <br/> This paper introduces the mixup method into adversarial training to improve the model performance on clean images.
+* [Adversarial Interpolation Training: A Simple Approach for Improving Model Robustness](https://openreview.net/forum?id=Syejj0NYvr&noteId=r1e432RzoS) (ICLR 2020) <br/> This paper introduces the mixup method into adversarial training to improve the model performance on clean images.
 
 * [Are labels required for improving adversarial robustness?](https://arxiv.org/pdf/1905.13725.pdf) (NeurIPS 2019) <br/> This paper exploit unlabeled data to better improve adversarial robustness.
 
@@ -57,7 +57,7 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='General_inference'></a>
 ## General Defenses (inference phase)
-* [Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks](https://arxiv.org/abs/1909.11515) (ICLR 2020) <br/> This paper exploit the mixup mechanism in the inference phase to improve robustness.
+* [Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks](https://openreview.net/forum?id=ByxtC2VtPB) (ICLR 2020) <br/> This paper exploit the mixup mechanism in the inference phase to improve robustness.
 
 * [Barrage of Random Transforms for Adversarially Robust Defense](http://openaccess.thecvf.com/content_CVPR_2019/papers/Raff_Barrage_of_Random_Transforms_for_Adversarially_Robust_Defense_CVPR_2019_paper.pdf) (CVPR 2019) <br/> This paper applies a set of different random transformations as an off-the-shelf defense.
 
