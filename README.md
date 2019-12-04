@@ -102,6 +102,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Empirical'></a>
 ## Empirical Analysis
+* [Adversarial Examples Improve Image Recognition](https://arxiv.org/pdf/1911.09665.pdf) <br/> This paper shows that an auxiliary BN for adversarial examples can improve generalization performance.
+
 * [Intriguing Properties of Adversarial Training at Scale](https://openreview.net/forum?id=HyxJhCEFDS&noteId=rJxeamAAKB) (ICLR 2020) <br/> This paper investigates the effects of BN and deeper models for adversarial training on ImageNet.
 
 * [Interpreting Adversarially Trained Convolutional Neural Networks](https://arxiv.org/pdf/1905.09797.pdf) (ICML 2019) <br/> This paper show that adversarial trained models can alleviate the texture bias and learn a more shape-biased representation.
