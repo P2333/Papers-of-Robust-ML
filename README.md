@@ -33,7 +33,7 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 
 * [Adversarial Training for Free!](https://arxiv.org/pdf/1904.12843.pdf) (NeurIPS 2019) <br/> A fast method for adversarial training, which shares the back-propogation gradients of updating weighs and crafting adversarial examples.
 
-* [ME-Net: Towards Effective Adversarial Robustness with Matrix Estimation](https://arxiv.org/abs/1905.11971) (ICML 2019) <br/> Th s paper demonstrates the global low-rank structures within images, and leverages matrix estimation to exploit such underlying structures for better adversarial robustness.
+* [ME-Net: Towards Effective Adversarial Robustness with Matrix Estimation](https://arxiv.org/abs/1905.11971) (ICML 2019) <br/> This paper demonstrates the global low-rank structures within images, and leverages matrix estimation to exploit such underlying structures for better adversarial robustness.
 
 * [Using Pre-Training Can Improve Model Robustness and Uncertainty](https://arxiv.org/abs/1901.09960) (ICML 2019) <br/>
 This paper shows adversarial robustness can transfer and that adversarial pretraining can increase adversarial robustness by ~10% accuracy.
