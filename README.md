@@ -33,6 +33,8 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 
 * [Adversarial Training for Free!](https://arxiv.org/pdf/1904.12843.pdf) (NeurIPS 2019) <br/> A fast method for adversarial training, which shares the back-propogation gradients of updating weighs and crafting adversarial examples.
 
+* [ME-Net: Towards Effective Adversarial Robustness with Matrix Estimation](https://arxiv.org/abs/1905.11971) (ICML 2019) <br/> Th s paper demonstrates the global low-rank structures within images, and leverages matrix estimation to exploit such underlying structures for better adversarial robustness.
+
 * [Using Pre-Training Can Improve Model Robustness and Uncertainty](https://arxiv.org/abs/1901.09960) (ICML 2019) <br/>
 This paper shows adversarial robustness can transfer and that adversarial pretraining can increase adversarial robustness by ~10% accuracy.
 
@@ -102,6 +104,9 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Empirical'></a>
 ## Empirical Analysis
+
+* [When NAS Meets Robustness: In Search of Robust Architectures against Adversarial Attacks](https://arxiv.org/abs/1911.10695) <br/> This paper leverages NAS to understand the influence of network architectures against adversarial attacks. It reveals several useful observations on designing robust network architectures.
+
 * [Adversarial Examples Improve Image Recognition](https://arxiv.org/pdf/1911.09665.pdf) <br/> This paper shows that an auxiliary BN for adversarial examples can improve generalization performance.
 
 * [Intriguing Properties of Adversarial Training at Scale](https://openreview.net/forum?id=HyxJhCEFDS&noteId=rJxeamAAKB) (ICLR 2020) <br/> This paper investigates the effects of BN and deeper models for adversarial training on ImageNet.
