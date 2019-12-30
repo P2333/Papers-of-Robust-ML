@@ -23,6 +23,8 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 
 * [Fast is better than free: Revisiting adversarial training](https://openreview.net/forum?id=BJx040EFvH&noteId=BJx040EFvH) (ICLR 2020) <br/> This paper proposes several tricks to make FGSM-based adversarial training effective.
 
+* [Adversarial Training and Provable Defenses: Bridging the Gap](https://openreview.net/forum?id=SJxSDxrKDr) (ICLR 2020) <br/> This paper proposes the layerwise adversarial training method, which gradually optimizes on the latent adversarial examples from low-level to high-level layers.
+
 * [Adversarial Interpolation Training: A Simple Approach for Improving Model Robustness](https://openreview.net/forum?id=Syejj0NYvr&noteId=r1e432RzoS) <br/> This paper introduces the mixup method into adversarial training to improve the model performance on clean images.
 
 * [Are labels required for improving adversarial robustness?](https://arxiv.org/pdf/1905.13725.pdf) (NeurIPS 2019) <br/> This paper exploit unlabeled data to better improve adversarial robustness.
