@@ -84,9 +84,11 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Verification'></a>
 ## Verification
+* [Towards Stable and Efficient Training of Verifiably Robust Neural Networks](https://openreview.net/forum?id=Skxuk1rFwB) (ICLR 2020) <br/> This paper combines the previous IBP and CROWN methods.
+
 * [On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models](https://arxiv.org/pdf/1810.12715.pdf) (ICCV 2019) <br/> This paper proposes the scalable verificatin method with interval bound propagation (IBP).
 
-* [Efficient Neural Network Robustness Certification with General Activation Functions](https://arxiv.org/abs/1811.00866) (NeurIPS 2018) <br/> This paper proposes the verification method for general activation with locally linear or quadratic approximation.
+* [Efficient Neural Network Robustness Certification with General Activation Functions](https://arxiv.org/abs/1811.00866) (NeurIPS 2018) <br/> This paper proposes the verification method CROWN for general activation with locally linear or quadratic approximation.
 
 * [Scaling Provable Adversarial Defenses](http://papers.nips.cc/paper/8060-scaling-provable-adversarial-defenses.pdf) (NeurIPS 2018) <br/> They add three tricks to improve the scalability of previously proposed method. Experiments are done on MNIST and CIFAR-10.
 
