@@ -98,6 +98,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 * [A Dual Approach to Scalable Verification of Deep Networks](https://arxiv.org/abs/1803.06567) (UAI 2018) <br/> This paper solves the dual problem to provide an upper bound of the primary specification problem for verification.
 
+* [Reluplex: An efficient SMT solver for verifying deep neural networks](https://arxiv.org/pdf/1702.01135.pdf) (CAV 2017) <br/> This paper use satisfiability modulo theory (SMT) solvers for the verification problem.
+
 * [Automated Verification of Neural Networks: Advances, Challenges and Perspectives](https://arxiv.org/pdf/1805.09938.pdf) <br/> This paper provides an overview of main verification methods, and introduces previous work on combining automated verification with machine learning. They also give some insights on future tendency of the combination between these two domains.
 
 <a id='Theoretical'></a>
