@@ -100,6 +100,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 * [Evaluating the Robustness of Neural Networks: An Extreme Value Theory Approach](https://arxiv.org/abs/1801.10578) (ICLR 2018) <br/> This paper proposes the CLEVER method to estimate the upper bound of specification.
 
+* [Certified Defenses against Adversarial Examples](https://arxiv.org/abs/1801.09344) (ICLR 2018) <br/> This paper proposes the certified training with semidefinite relaxation.
+
 * [A Dual Approach to Scalable Verification of Deep Networks](https://arxiv.org/abs/1803.06567) (UAI 2018) <br/> This paper solves the dual problem to provide an upper bound of the primary specification problem for verification.
 
 * [Reluplex: An efficient SMT solver for verifying deep neural networks](https://arxiv.org/pdf/1702.01135.pdf) (CAV 2017) <br/> This paper use satisfiability modulo theory (SMT) solvers for the verification problem.
