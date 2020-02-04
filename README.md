@@ -86,6 +86,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 ## Verification
 * [Towards Stable and Efficient Training of Verifiably Robust Neural Networks](https://openreview.net/forum?id=Skxuk1rFwB) (ICLR 2020) <br/> This paper combines the previous IBP and CROWN methods.
 
+* [Tight Certificates of Adversarial Robustness for Randomly Smoothed Classifiers](https://guanghelee.github.io/pub/Lee_etal_neurips19.pdf) (NeurIPS 2019) <br/> This word extends the robustness certificate of random smoothing from L2 to L0 norm bound.
+
 * [On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models](https://arxiv.org/pdf/1810.12715.pdf) (ICCV 2019) <br/> This paper proposes the scalable verificatin method with interval bound propagation (IBP).
 
 * [Evaluating Robustness of Neural Networks with Mixed Integer Programming](https://arxiv.org/abs/1711.07356) (ICLR 2019) <br/> This paper use mixed integer programming (MIP) method to solve the verification problem.
