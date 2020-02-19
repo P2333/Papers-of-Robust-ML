@@ -14,7 +14,7 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 - <a href="#Theoretical">Theoretical Analysis</a><br>
 - <a href="#Empirical">Empirical Analysis</a><br>
 - <a href="#Seminal_work">Seminal Work</a><br>
-- <a href="#Benchmarck_Datasets">Benchmarck Datasets</a><br>
+- <a href="#Benchmark_Datasets">Benchmark Datasets</a><br>
 
 
 <a id='General_training'></a>
@@ -157,8 +157,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 * [Intriguing properties of neural networks](https://arxiv.org/abs/1312.6199) (ICLR 2014) <br/> This paper first introduced the concept of adversarial examples in deep learning, and provided a L-BFGS based attack method.
 
-<a id='Benchmarck_Datasets'></a>
-## Benchmarck Datasets
+<a id='Benchmark_Datasets'></a>
+## Benchmark Datasets
 * [Natural adversarial examples](https://arxiv.org/pdf/1907.07174.pdf) <br/> ImageNet-A dataset.
 
 * [Benchmarking Neural Network Robustness to Common Corruptions and Perturbations](https://arxiv.org/pdf/1903.12261.pdf) (ICLR 2019) <br/> ImageNet-C dataset.
