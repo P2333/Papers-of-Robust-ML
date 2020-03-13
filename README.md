@@ -86,6 +86,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Verification'></a>
 ## Verification
+* [Towards Verifying Robustness of Neural Networks against Semantic Perturbations](https://arxiv.org/abs/1912.09533) (CVPR 2020) <br/> This paper generalize the pixel-wise verification methods into the semantic transformation space.
+
 * [Towards Stable and Efficient Training of Verifiably Robust Neural Networks](https://openreview.net/forum?id=Skxuk1rFwB) (ICLR 2020) <br/> This paper combines the previous IBP and CROWN methods.
 
 * [A Convex Relaxation Barrier to Tight Robustness Verification of Neural Networks](http://papers.nips.cc/paper/9176-a-convex-relaxation-barrier-to-tight-robustness-verification-of-neural-networks.pdf) (NeurIPS 2019) <br/> This paper makes a conprehensive studies on existing robustness verification methods based on convex relaxation.
