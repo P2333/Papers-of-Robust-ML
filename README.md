@@ -100,6 +100,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 * [Efficient Neural Network Robustness Certification with General Activation Functions](https://arxiv.org/abs/1811.00866) (NeurIPS 2018) <br/> This paper proposes the verification method CROWN for general activation with locally linear or quadratic approximation.
 
+* [A Unified View of Piecewise Linear Neural Network Verification](https://arxiv.org/abs/1711.00455) (NeurIPS 2018) <br/> This paper presents a unified framework and an empirical benchmark on previous verification methods
+
 * [Scaling Provable Adversarial Defenses](http://papers.nips.cc/paper/8060-scaling-provable-adversarial-defenses.pdf) (NeurIPS 2018) <br/> They add three tricks to improve the scalability (to CIFAR-10) of previously proposed method in ICML.
 
 * [Provable Defenses against Adversarial Examples via the Convex Outer Adversarial Polytope](https://arxiv.org/pdf/1711.00851.pdf) (ICML 2018) <br/> By robust optimization (via a linear program), they can get a point-wise bound of robustness, where no adversarial example exists in the bound. Experiments are done on MNIST.
