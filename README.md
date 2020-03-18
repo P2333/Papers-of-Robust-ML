@@ -126,6 +126,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 * [Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/pdf/1905.02175.pdf) (NeurIPS 2019) <br/> They claim that adversarial examples can be directly attributed to the presence of non-robust features, which are highly predictive but locally quite sensitive.
 
+* [First-order Adversarial Vulnerability of Neural Networks and Input Dimension](https://arxiv.org/pdf/1802.01421.pdf) (ICML 2019) <br/> This paper demonsrate the relations among adversarial vulnerability and gradient norm and input dimension with comprehensive empirical experiments.
+
 * [Adversarial Examples from Computational Constraints](https://arxiv.org/pdf/1805.10204.pdf) (ICML 2019) <br/> The authors argue that the exsitence of adversarial examples could stem from computational constrations.
 
 * [Adversarial Examples Are a Natural Consequence of Test Error in Noise](https://arxiv.org/pdf/1901.10513.pdf) (ICML 2019) <br/> This paper connects the relation between the general corruption robustness and the adversarial robustness, and recommand the adversarial defenses methods to be also tested on general-purpose noises.
