@@ -21,6 +21,8 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 ## General Defenses (training phase)
 * [Rethinking Softmax Cross-Entropy Loss for Adversarial Robustness](https://openreview.net/forum?id=Byg9A24tvB) (ICLR 2020) <br/> This paper rethink the drawbacks of softmax cross-entropy in the adversarial setting, and propose the MMC method to induce high-density regions in the feature space.
 
+* [Jacobian Adversarially Regularized Networks for Robustness](https://openreview.net/pdf?id=Hke0V1rKPS) (ICLR 2020) <br/> This paper propose to show that a generally more interpretable model could potentially be more robust against adversarial attacks.
+
 * [Fast is better than free: Revisiting adversarial training](https://openreview.net/forum?id=BJx040EFvH&noteId=BJx040EFvH) (ICLR 2020) <br/> This paper proposes several tricks to make FGSM-based adversarial training effective.
 
 * [Adversarial Training and Provable Defenses: Bridging the Gap](https://openreview.net/forum?id=SJxSDxrKDr) (ICLR 2020) <br/> This paper proposes the layerwise adversarial training method, which gradually optimizes on the latent adversarial examples from low-level to high-level layers.
