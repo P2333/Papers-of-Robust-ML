@@ -146,7 +146,7 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 ## Empirical Analysis
 * [Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks](https://arxiv.org/abs/2003.01690) <br/> An comprehensive empirical evaluations on some of the existing defense methods. 
 
-* [Overfitting in adversarially robust deep learning](https://arxiv.org/pdf/2002.11569.pdf) <br/> This paper shows the phenomena of overfitting when training robust models with sufficient empirical experiments (codes provided in paper).
+* [Overfitting in adversarially robust deep learning](https://arxiv.org/pdf/2002.11569.pdf) (ICML 2020) <br/> This paper shows the phenomena of overfitting when training robust models with sufficient empirical experiments (codes provided in paper).
 
 * [When NAS Meets Robustness: In Search of Robust Architectures against Adversarial Attacks](https://arxiv.org/abs/1911.10695) <br/> This paper leverages NAS to understand the influence of network architectures against adversarial attacks. It reveals several useful observations on designing robust network architectures.
 
