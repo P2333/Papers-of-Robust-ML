@@ -144,7 +144,9 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Empirical'></a>
 ## Empirical Analysis
-* [Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks](https://arxiv.org/abs/2003.01690) <br/> An comprehensive empirical evaluations on some of the existing defense methods. 
+* [Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks](https://arxiv.org/abs/2003.01690) (ICML 2020) <br/> An comprehensive empirical evaluations on some of the existing defense methods. 
+
+* [Attacks Which Do Not Kill Training Make Adversarial Learning Stronger](https://arxiv.org/pdf/2002.11242.pdf) (ICML 2020) <br/> This paper also advovate for early-stop during adversarial training.
 
 * [Overfitting in adversarially robust deep learning](https://arxiv.org/pdf/2002.11569.pdf) (ICML 2020) <br/> This paper shows the phenomena of overfitting when training robust models with sufficient empirical experiments (codes provided in paper).
 
