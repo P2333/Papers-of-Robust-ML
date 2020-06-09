@@ -124,7 +124,9 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Theoretical'></a>
 ## Theoretical Analysis
-* [Improved Sample Complexities for Deep Neural Networks and Robust Classification via an All-Layer Margin](https://openreview.net/forum?id=HJe_yR4Fwr) (ICLR 2020) This paper connect the generalization gap w.r.t all-layer margin, and propose a variant of adversarial training, where the perturbations can be imposed on each layer in network.
+* [Towards Deep Learning Models Resistant to Large Perturbations](https://arxiv.org/pdf/2003.13370.pdf) <br/> This paper prove that the weight initialization of a already robust model on small perturbation can be helpful for training on large perturbations.
+
+* [Improved Sample Complexities for Deep Neural Networks and Robust Classification via an All-Layer Margin](https://openreview.net/forum?id=HJe_yR4Fwr) (ICLR 2020) <br/> This paper connect the generalization gap w.r.t all-layer margin, and propose a variant of adversarial training, where the perturbations can be imposed on each layer in network.
 
 * [Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/pdf/1905.02175.pdf) (NeurIPS 2019) <br/> They claim that adversarial examples can be directly attributed to the presence of non-robust features, which are highly predictive but locally quite sensitive.
 
