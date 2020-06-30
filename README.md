@@ -19,6 +19,8 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 
 <a id='General_training'></a>
 ## General Defenses (training phase)
+* [Smooth Adversarial Training](https://arxiv.org/pdf/2006.14536.pdf) <br/> This paper advocate using smooth variants of ReLU during adversarial training, which can achieve state-of-the-art performance on ImageNet.  
+
 * [Rethinking Softmax Cross-Entropy Loss for Adversarial Robustness](https://openreview.net/forum?id=Byg9A24tvB) (ICLR 2020) <br/> This paper rethink the drawbacks of softmax cross-entropy in the adversarial setting, and propose the MMC method to induce high-density regions in the feature space.
 
 * [Jacobian Adversarially Regularized Networks for Robustness](https://openreview.net/pdf?id=Hke0V1rKPS) (ICLR 2020) <br/> This paper propose to show that a generally more interpretable model could potentially be more robust against adversarial attacks.
