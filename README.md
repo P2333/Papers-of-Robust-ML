@@ -19,6 +19,8 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 
 <a id='General_training'></a>
 ## General Defenses (training phase)
+* [Understanding and Improving Fast Adversarial Training](https://arxiv.org/pdf/2007.02617.pdf) <br/> A systematic study of catastrophic overfitting in adversarial training, its reasons, and ways of resolving it. The proposed regularizer, *GradAlign*, helps to prevent catastrophic overfitting and scale FGSM training to high Linf-perturbations.
+
 * [Smooth Adversarial Training](https://arxiv.org/pdf/2006.14536.pdf) <br/> This paper advocate using smooth variants of ReLU during adversarial training, which can achieve state-of-the-art performance on ImageNet.  
 
 * [Rethinking Softmax Cross-Entropy Loss for Adversarial Robustness](https://openreview.net/forum?id=Byg9A24tvB) (ICLR 2020) <br/> This paper rethink the drawbacks of softmax cross-entropy in the adversarial setting, and propose the MMC method to induce high-density regions in the feature space.
