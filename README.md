@@ -162,6 +162,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 * [Intriguing Properties of Adversarial Training at Scale](https://openreview.net/forum?id=HyxJhCEFDS&noteId=rJxeamAAKB) (ICLR 2020) <br/> This paper investigates the effects of BN and deeper models for adversarial training on ImageNet.
 
+* [A Fourier Perspective on Model Robustness in Computer Vision](https://papers.nips.cc/paper/9483-a-fourier-perspective-on-model-robustness-in-computer-vision.pdf) (NeurIPS 2019) <br/> This paper analyzes different types of noises (including adversarial ones) from the Fourier perspective, and observes some relationship between the robustness and the Fourier frequency. 
+
 * [Interpreting Adversarially Trained Convolutional Neural Networks](https://arxiv.org/pdf/1905.09797.pdf) (ICML 2019) <br/> This paper show that adversarial trained models can alleviate the texture bias and learn a more shape-biased representation.
 
 * [On Evaluating Adversarial Robustness](https://arxiv.org/pdf/1902.06705.pdf) <br/> Some analyses on how to correctly evaluate the robustness of adversarial defenses.
