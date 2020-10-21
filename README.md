@@ -182,6 +182,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Benchmark_Datasets'></a>
 ## Benchmark Datasets
+* [RobustBench: a standardized adversarial robustness benchmark](https://arxiv.org/pdf/2010.09670.pdf) <br/> A standardized robustness benchmark with 50+ models together with the [Model Zoo](https://github.com/RobustBench/robustbench). 
+
 * [Natural adversarial examples](https://arxiv.org/pdf/1907.07174.pdf) <br/> ImageNet-A dataset.
 
 * [Benchmarking Neural Network Robustness to Common Corruptions and Perturbations](https://arxiv.org/pdf/1903.12261.pdf) (ICLR 2019) <br/> ImageNet-C dataset.
