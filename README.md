@@ -13,6 +13,7 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 - <a href="#Verification">Verification</a><br>
 - <a href="#Theoretical">Theoretical Analysis</a><br>
 - <a href="#Empirical">Empirical Analysis</a><br>
+- <a href="#Beyond_Safety">Beyond Safety</a><br>
 - <a href="#Seminal_work">Seminal Work</a><br>
 - <a href="#Benchmark_Datasets">Benchmark Datasets</a><br>
 
@@ -171,6 +172,10 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 * [On Evaluating Adversarial Robustness](https://arxiv.org/pdf/1902.06705.pdf) <br/> Some analyses on how to correctly evaluate the robustness of adversarial defenses.
 
 * [Adversarial Example Defenses: Ensembles of Weak Defenses are not Strong](https://arxiv.org/pdf/1706.04701.pdf) <br/> This paper tests some ensemble of existing detection-based defenses, and claim that these ensemble defenses could still be evaded by white-box attacks.
+
+<a id='Beyond_Safety'></a>
+## Beyond Safety
+* [Self-supervised Learning with Adversarial Training](https://github.com/P2333/Papers-of-Robust-ML) ([1](https://proceedings.neurips.cc/paper/2020/hash/1f1baa5b8edac74eb4eaa329f14a0361-Abstract.html), [2](https://proceedings.neurips.cc/paper/2020/hash/c68c9c8258ea7d85472dd6fd0015f047-Abstract.html), [3](https://proceedings.neurips.cc/paper/2020/hash/ba7e36c43aff315c00ec2b8625e3b719-Abstract.html)) (NeurIPS 2020) <br/> These three papers work on embedding adversarial training mechanism into contrastive-based self-supervised learning.
 
 <a id='Seminal_work'></a>
 ## Seminal Work
