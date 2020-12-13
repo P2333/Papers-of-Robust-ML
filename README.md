@@ -153,6 +153,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Empirical'></a>
 ## Empirical Analysis
+* [Hold me tight! Influence of discriminative features on deep network boundaries](https://arxiv.org/abs/2002.06349) (NeurIPS 2020) <br/> This paper empirically shows that decision boundaries are constructed along discriminative features, and explain the mechanism of adversarial training.
+
 * [Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks](https://arxiv.org/abs/2003.01690) (ICML 2020) <br/> An comprehensive empirical evaluations on some of the existing defense methods. 
 
 * [Attacks Which Do Not Kill Training Make Adversarial Learning Stronger](https://arxiv.org/pdf/2002.11242.pdf) (ICML 2020) <br/> This paper also advovate for early-stop during adversarial training.
