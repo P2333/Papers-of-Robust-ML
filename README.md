@@ -153,6 +153,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Empirical'></a>
 ## Empirical Analysis
+* [Bag of Tricks for Adversarial Training](https://openreview.net/forum?id=Xb8xvrtB8Ce) (ICLR 2021) <br/> This paper provides an empirical study on the usually overlooked hyperparameters used in adversarial training, and show that inappropriate settings can largely affect the performance of adversarially trained models.
+
 * [Hold me tight! Influence of discriminative features on deep network boundaries](https://arxiv.org/abs/2002.06349) (NeurIPS 2020) <br/> This paper empirically shows that decision boundaries are constructed along discriminative features, and explain the mechanism of adversarial training.
 
 * [Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks](https://arxiv.org/abs/2003.01690) (ICML 2020) <br/> An comprehensive empirical evaluations on some of the existing defense methods. 
