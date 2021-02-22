@@ -75,7 +75,7 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='General_inference'></a>
 ## General Defenses (inference phase)
-* [Online Adversarial Purification based on Self-Supervision](https://arxiv.org/abs/2101.09387) (ICLR 2021) <br/> This paper proposes to train the network with a label-independent auxiliary task (e.g., rotation prediction), and purify the test inputs dynamically by minimizing the auxiliart loss.
+* [Online Adversarial Purification based on Self-Supervision](https://arxiv.org/abs/2101.09387) (ICLR 2021) <br/> This paper proposes to train the network with a label-independent auxiliary task (e.g., rotation prediction), and purify the test inputs dynamically by minimizing the auxiliary loss.
 
 * [Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks](https://openreview.net/forum?id=ByxtC2VtPB) (ICLR 2020) <br/> This paper exploit the mixup mechanism in the inference phase to improve robustness.
 
