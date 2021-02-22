@@ -75,6 +75,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='General_inference'></a>
 ## General Defenses (inference phase)
+* [Online Adversarial Purification based on Self-Supervision](https://arxiv.org/abs/2101.09387) (ICLR 2021) <br/> This paper proposes to train the network with a label-independent auxiliary task (e.g., rotation prediction), and purify the test inputs dynamically by minimizing the auxiliart loss.
+
 * [Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks](https://openreview.net/forum?id=ByxtC2VtPB) (ICLR 2020) <br/> This paper exploit the mixup mechanism in the inference phase to improve robustness.
 
 * [Barrage of Random Transforms for Adversarially Robust Defense](http://openaccess.thecvf.com/content_CVPR_2019/papers/Raff_Barrage_of_Random_Transforms_for_Adversarially_Robust_Defense_CVPR_2019_paper.pdf) (CVPR 2019) <br/> This paper applies a set of different random transformations as an off-the-shelf defense.
