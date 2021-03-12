@@ -194,6 +194,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 * [Do Adversarially Robust ImageNet Models Transfer Better?](https://proceedings.neurips.cc/paper/2020/hash/24357dd085d2c4b1a88a7e0692e60294-Abstract.html) (NeurIPS 2020) <br/> This paper show that an adversarially robust model can work better for transfer learning, which encourage the learning process to focus on semantic features.
 
+* [Adversarial Examples Improve Image Recognition](https://cs.jhu.edu/~alanlab/Pubs20/xie2020adversarial.pdf) (CVPR 2020) <br/> This paper treat adversarial training as a regularization strategy for traditional classification task, and achieve SOTA clean performance on ImageNet without extra data.
+
 <a id='Seminal_work'></a>
 ## Seminal Work
 * [Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/pdf/1706.06083.pdf) (ICLR 2018) <br/> This paper proposed projected gradient descent (PGD) attack, and the PGD-based adversarial training.
