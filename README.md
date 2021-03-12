@@ -155,6 +155,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Empirical'></a>
 ## Empirical Analysis
+* [Uncovering the Limits of Adversarial Training against Norm-Bounded Adversarial Examples](https://arxiv.org/abs/2010.03593) <br/> This paper explores the limits of adversarial training on CIFAR-10 by applying large model architecture, weight moving average, smooth activation and more training data to achieve SOTA robustness under norm-bounded constraints.
+
 * [Bag of Tricks for Adversarial Training](https://openreview.net/forum?id=Xb8xvrtB8Ce) (ICLR 2021) <br/> This paper provides an empirical study on the usually overlooked hyperparameters used in adversarial training, and show that inappropriate settings can largely affect the performance of adversarially trained models.
 
 * [Neural Anisotropy Directions](https://arxiv.org/pdf/2006.09717.pdf) (NeurIPS 2020) <br/> This paper shows that there exist directional inductive biases of model architectures, which can explain the model reaction against certain adversarial perturbation.
