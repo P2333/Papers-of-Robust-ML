@@ -187,6 +187,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Beyond_Safety'></a>
 ## Beyond Safety
+* [Improved Autoregressive Modeling with Distribution Smoothing](https://openreview.net/forum?id=rJA5Pz7lHKb) (ICLR 2021) <br/> This paper apply similar idea of randomized smoothing into autoregressive generative modeling, which first modeling a smoothed data distribution and then denoise the sampled data.
+
 * [Defending Against Image Corruptions Through Adversarial Augmentations](https://arxiv.org/pdf/2104.01086.pdf) <br/> This paper proposes AdversarialAugment method to adversarially craft corrupted augmented images during training.
 
 * [On the effectiveness of adversarial training against common corruptions](https://arxiv.org/pdf/2103.02325.pdf) <br/> This paper studies how to use adversarial training (both Lp and a relaxation of perceptual adversarial training) to improve the performance on common image corruptions (CIFAR-10-C / ImageNet-100-C).
