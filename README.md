@@ -20,6 +20,8 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 
 <a id='General_training'></a>
 ## General Defenses (training phase)
+* [Improving Adversarial Robustness Using Proxy Distributions](https://arxiv.org/pdf/2104.09425.pdf) <br/> This paper verifies that leveraging more data sampled from a (high-quality) generative model that was trained on the same dataset (e.g., CIFAR-10) can still improve robustness of adversarially trained models, without using any extra data.
+
 * [Understanding and Improving Fast Adversarial Training](https://arxiv.org/pdf/2007.02617.pdf) (NeurIPS 2020) <br/> A systematic study of catastrophic overfitting in adversarial training, its reasons, and ways of resolving it. The proposed regularizer, *GradAlign*, helps to prevent catastrophic overfitting and scale FGSM training to high Linf-perturbations.
 
 * [Confidence-Calibrated Adversarial Training: Generalizing to Unseen Attacks](https://arxiv.org/pdf/1910.06259.pdf) (ICML 2020) <br/> This paper uses a perturbation-dependent label smoothing method to generalize adversarially trained models to unseen attacks.
