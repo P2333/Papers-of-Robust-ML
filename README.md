@@ -20,6 +20,8 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 
 <a id='General_training'></a>
 ## General Defenses (training phase)
+* [Adversarial Training with Rectified Rejection](https://arxiv.org/pdf/2105.14785.pdf) <br/> This paper proposes a coupling rejection strategy, where two simple but well-designed rejection metrics can be coupled to provabably distinguish any misclassified sample from correclty classified ones.
+
 * [Fixing Data Augmentation to Improve Adversarial Robustness](https://arxiv.org/pdf/2103.01946.pdf) <br/> This paper shows that after applying weight moving average, data augmentation (either by transformatons or generative models) can further improve robustness of adversarial training.
 
 * [Improving Adversarial Robustness Using Proxy Distributions](https://arxiv.org/pdf/2104.09425.pdf) <br/> This paper verifies that leveraging more data sampled from a (high-quality) generative model that was trained on the same dataset (e.g., CIFAR-10) can still improve robustness of adversarially trained models, without using any extra data.
@@ -93,6 +95,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Detection'></a>
 ## Adversarial Detection
+* [Adversarial Training with Rectified Rejection](https://arxiv.org/pdf/2105.14785.pdf) <br/> This paper proposes a coupling rejection strategy, where two simple but well-designed rejection metrics can be coupled to provabably distinguish any misclassified sample from correclty classified ones.
+
 * [Towards Robust Detection of Adversarial Examples](http://papers.nips.cc/paper/7709-towards-robust-detection-of-adversarial-examples.pdf) (NeurIPS 2018) <br/> This is one of our work. We train the networks with reverse cross-entropy (RCE), which can map normal features to low-dimensional manifolds, and then detectors can better separate between adversarial examples and normal ones.
 
 * [A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks](http://papers.nips.cc/paper/7947-a-simple-unified-framework-for-detecting-out-of-distribution-samples-and-adversarial-attacks.pdf) (NeurIPS 2018) <br/> Fit a GDA on learned features, and use Mahalanobis distance as the detection metric.
