@@ -198,6 +198,8 @@ data and (poorly) trained models, namely, learned representations.
 
 * [On Evaluating Adversarial Robustness](https://arxiv.org/pdf/1902.06705.pdf) <br/> Some analyses on how to correctly evaluate the robustness of adversarial defenses.
 
+* [Is Robustness the Cost of Accuracy? -- A Comprehensive Study on the Robustness of 18 Deep Image Classification Models](https://openaccess.thecvf.com/content_ECCV_2018/html/Dong_Su_Is_Robustness_the_ECCV_2018_paper.html) <br/> This paper empirically studies the effects of model architectures (trained on ImageNet) on robustness and accuracy.
+
 * [Adversarial Example Defenses: Ensembles of Weak Defenses are not Strong](https://arxiv.org/pdf/1706.04701.pdf) <br/> This paper tests some ensemble of existing detection-based defenses, and claim that these ensemble defenses could still be evaded by white-box attacks.
 
 <a id='Beyond_Safety'></a>
