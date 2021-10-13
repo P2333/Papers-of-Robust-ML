@@ -221,6 +221,8 @@ data and (poorly) trained models, namely, learned representations.
 
 <a id='Seminal_work'></a>
 ## Seminal Work
+* [Unsolved Problems in ML Safety](https://arxiv.org/pdf/2109.13916.pdf) <br/> A comprehensive roadmap for future researches in Trustworthy ML. 
+
 * [Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/pdf/1706.06083.pdf) (ICLR 2018) <br/> This paper proposed projected gradient descent (PGD) attack, and the PGD-based adversarial training.
 
 * [Adversarial examples are not easily detected: Bypassing ten detection methods](https://dl.acm.org/citation.cfm?Id=3140444) (AISec 17) <br/> This paper first desgined different adaptive attacks for detection-based methods.
