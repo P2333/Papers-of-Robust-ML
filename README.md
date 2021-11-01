@@ -85,6 +85,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='General_inference'></a>
 ## General Defenses (inference phase)
+* [Adversarial Attacks are Reversible with Natural Supervision](https://arxiv.org/abs/2103.14222) (ICCV 2021) <br/> This paper proposes to use contrastive loss to restore the natural structure of attacked images, providing a defense.
+
 * [Adversarial Purification with Score-based Generative Models](https://arxiv.org/pdf/2106.06041.pdf) (ICML 2021) <br/> This paper proposes to use score-based generative models (e.g., NCSN) to purify adversarial examples.
 
 * [Online Adversarial Purification based on Self-Supervision](https://arxiv.org/abs/2101.09387) (ICLR 2021) <br/> This paper proposes to train the network with a label-independent auxiliary task (e.g., rotation prediction), and purify the test inputs dynamically by minimizing the auxiliary loss.
