@@ -13,7 +13,7 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 - <a href="#Verification">Verification</a><br>
 - <a href="#Theoretical">Theoretical Analysis</a><br>
 - <a href="#Empirical">Empirical Analysis</a><br>
-- <a href="#Beyond_Safety">Beyond Safety</a><br>
+- <a href="#Beyond_Safety">Beyond Safety (Adversarial for Good)</a><br>
 - <a href="#Seminal_work">Seminal Work</a><br>
 - <a href="#Benchmark_Datasets">Benchmark Datasets</a><br>
 
@@ -213,7 +213,7 @@ data and (poorly) trained models, namely, learned representations.
 * [On the effectiveness of adversarial training against common corruptions](https://arxiv.org/pdf/2103.02325.pdf) <br/> This paper studies how to use adversarial training (both Lp and a relaxation of perceptual adversarial training) to improve the performance on common image corruptions (CIFAR-10-C / ImageNet-100-C).
 
 
-* [Unadversarial Examples: Designing Objects for Robust Vision](https://arxiv.org/pdf/2012.12235.pdf) <br/> This paper turns the weakness of adversarial examples into strength, and proposes to use unadversarial examples to enhance model performance and robustness.
+* [Unadversarial Examples: Designing Objects for Robust Vision](https://arxiv.org/pdf/2012.12235.pdf) (NeurIPS 2021) <br/> This paper turns the weakness of adversarial examples into strength, and proposes to use unadversarial examples to enhance model performance and robustness.
 
 * [Self-supervised Learning with Adversarial Training](https://github.com/P2333/Papers-of-Robust-ML) ([1](https://proceedings.neurips.cc/paper/2020/hash/1f1baa5b8edac74eb4eaa329f14a0361-Abstract.html), [2](https://proceedings.neurips.cc/paper/2020/hash/c68c9c8258ea7d85472dd6fd0015f047-Abstract.html), [3](https://proceedings.neurips.cc/paper/2020/hash/ba7e36c43aff315c00ec2b8625e3b719-Abstract.html)) (NeurIPS 2020) <br/> These three papers work on embedding adversarial training mechanism into contrastive-based self-supervised learning. They show that AT mechanism can promote the learned representations.
 
