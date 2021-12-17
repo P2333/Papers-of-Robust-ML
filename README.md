@@ -20,6 +20,8 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 
 <a id='General_training'></a>
 ## General Defenses (training phase)
+* [Stable Neural ODE with Lyapunov-Stable Equilibrium Points for Defending Against Adversarial Attacks](https://openreview.net/pdf?id=9CPc4EIr2t1) (NeurIPS 2021) <br/> This paper combines the stable conditions in control theory into neural ODE to induce locally stable models. 
+
 * [Adversarial Training with Rectified Rejection](https://arxiv.org/pdf/2105.14785.pdf) <br/> This paper proposes a coupling rejection strategy, where two simple but well-designed rejection metrics can be coupled to provabably distinguish any misclassified sample from correclty classified ones.
 
 * [Fixing Data Augmentation to Improve Adversarial Robustness](https://arxiv.org/pdf/2103.01946.pdf) <br/> This paper shows that after applying weight moving average, data augmentation (either by transformatons or generative models) can further improve robustness of adversarial training.
