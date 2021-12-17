@@ -10,7 +10,7 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 - <a href="#General_training">General Defenses (training phase)</a><br>
 - <a href="#General_inference">General Defenses (inference phase)</a><br>
 - <a href="#Detection">Adversarial Detection</a><br>
-- <a href="#Verification">Verification</a><br>
+- <a href="#Certified Defense and Model Verification">Certified Defense and Model Verification</a><br>
 - <a href="#Theoretical">Theoretical Analysis</a><br>
 - <a href="#Empirical">Empirical Analysis</a><br>
 - <a href="#Beyond_Safety">Beyond Safety (Adversarial for Good)</a><br>
@@ -115,8 +115,10 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 * [Detecting adversarial samples from artifacts](https://arxiv.org/abs/1703.00410) <br/> This paper proposed the kernel density (K-density) metric on the learned features to detect adversarial examples.
 
-<a id='Verification'></a>
-## Verification
+<a id='Certified Defense and Model Verification'></a>
+## Certified Defense and Model Verification
+* [Towards Better Understanding of Training Certifiably Robust Models against Adversarial Examples](https://openreview.net/pdf?id=b18Az57ioHn) (NeurIPS 2021) <br/>  This paper generally study the effciency of different certified defenses, and find that the smoothness of loss landscape matters.
+
 * [Towards Verifying Robustness of Neural Networks against Semantic Perturbations](https://arxiv.org/abs/1912.09533) (CVPR 2020) <br/> This paper generalize the pixel-wise verification methods into the semantic transformation space.
 
 * [Neural Network Branching for Neural Network Verification](https://arxiv.org/abs/1912.01329) (ICLR 2020) <br/> This paper use GNN to adaptively construct branching strategy for model verification.
