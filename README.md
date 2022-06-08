@@ -24,11 +24,11 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 
 * [Stable Neural ODE with Lyapunov-Stable Equilibrium Points for Defending Against Adversarial Attacks](https://openreview.net/pdf?id=9CPc4EIr2t1) (NeurIPS 2021) <br/> This paper combines the stable conditions in control theory into neural ODE to induce locally stable models. 
 
-* [Two Coupled Rejection Metrics Can Tell Adversarial Examples Apart ](https://arxiv.org/pdf/2105.14785.pdf) <br/> This paper proposes a coupling rejection strategy, where two simple but well-designed rejection metrics can be coupled to provabably distinguish any misclassified sample from correclty classified ones.
+* [Two Coupled Rejection Metrics Can Tell Adversarial Examples Apart ](https://arxiv.org/pdf/2105.14785.pdf) (CVPR 2022) <br/> This paper proposes a coupling rejection strategy, where two simple but well-designed rejection metrics can be coupled to provabably distinguish any misclassified sample from correclty classified ones.
 
-* [Fixing Data Augmentation to Improve Adversarial Robustness](https://arxiv.org/pdf/2103.01946.pdf) <br/> This paper shows that after applying weight moving average, data augmentation (either by transformatons or generative models) can further improve robustness of adversarial training.
+* [Fixing Data Augmentation to Improve Adversarial Robustness](https://arxiv.org/pdf/2103.01946.pdf) (NeurIPS 2021) <br/> This paper shows that after applying weight moving average, data augmentation (either by transformatons or generative models) can further improve robustness of adversarial training.
 
-* [Improving Adversarial Robustness Using Proxy Distributions](https://arxiv.org/pdf/2104.09425.pdf) <br/> This paper verifies that leveraging more data sampled from a (high-quality) generative model that was trained on the same dataset (e.g., CIFAR-10) can still improve robustness of adversarially trained models, without using any extra data.
+* [Robust Learning Meets Generative Models: Can Proxy Distributions Improve Adversarial Robustness?](https://arxiv.org/pdf/2104.09425.pdf) (ICLR 2022) <br/> This paper verifies that leveraging more data sampled from a (high-quality) generative model that was trained on the same dataset (e.g., CIFAR-10) can still improve robustness of adversarially trained models, without using any extra data.
 
 * [Towards Robust Neural Networks via Close-loop Control](https://openreview.net/forum?id=2AL06y9cDE-) (ICLR 2021) <br/> This paper introduce a close-loop control framework to enhance adversarial robustness of trained networks.
 
