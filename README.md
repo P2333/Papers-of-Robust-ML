@@ -179,6 +179,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Empirical'></a>
 ## Empirical Analysis
+* [PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures](https://arxiv.org/abs/2112.05135) (CVPR 2022) <br/> This paper uses dreamlike pictures as data augmentation to generally improve robustness (remove texture-based confounders).
+
 * [How Benign is Benign Overfitting](https://openreview.net/pdf?id=g-wu9TMPODo) (ICLR 2021) <br/> This paper shows that adversarial vulnerability may come from bad
 data and (poorly) trained models, namely, learned representations.
 
