@@ -105,9 +105,9 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Detection'></a>
 ## Adversarial Detection
-* [Class-Disentanglement and Applications in Adversarial Detection and Defense](https://openreview.net/pdf?id=jFMzBeLyTc0) (NeurIPS 2021) <br/> This paper proposes to disentangle the class-dependence and visually reconstruction, and exploit the result as an adversarial detection metric.
+* [Detecting adversarial examples is (nearly) as hard as classifying them](https://proceedings.mlr.press/v162/tramer22a.html) (ICML 2022) <br/> This paper demonstrates that detection and classification of adversarial examples can be mutually converted, and thus many previous works on detection may overclaim their effectiveness.
 
-* [Adversarial Training with Rectified Rejection](https://arxiv.org/pdf/2105.14785.pdf) <br/> This paper proposes a coupling rejection strategy, where two simple but well-designed rejection metrics can be coupled to provabably distinguish any misclassified sample from correclty classified ones.
+* [Class-Disentanglement and Applications in Adversarial Detection and Defense](https://openreview.net/pdf?id=jFMzBeLyTc0) (NeurIPS 2021) <br/> This paper proposes to disentangle the class-dependence and visually reconstruction, and exploit the result as an adversarial detection metric.
 
 * [Towards Robust Detection of Adversarial Examples](http://papers.nips.cc/paper/7709-towards-robust-detection-of-adversarial-examples.pdf) (NeurIPS 2018) <br/> This is one of our work. We train the networks with reverse cross-entropy (RCE), which can map normal features to low-dimensional manifolds, and then detectors can better separate between adversarial examples and normal ones.
 
