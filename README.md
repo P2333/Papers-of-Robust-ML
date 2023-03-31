@@ -216,6 +216,8 @@ data and (poorly) trained models, namely, learned representations.
 
 <a id='Beyond_Safety'></a>
 ## Beyond Safety
+* [Robust Models are less Over-Confident](https://openreview.net/forum?id=5K3uopkizS) (NeurIPS 2022) <br/> This paper analyzes the (over)confidence of robust CNNs and concludes that robust models that are significantly less overconfident with their decisions, even on clean data. Further, the authors provide a model zoo of various CNNs trained with and without adversarial defenses.
+
 * [Improved Autoregressive Modeling with Distribution Smoothing](https://openreview.net/forum?id=rJA5Pz7lHKb) (ICLR 2021) <br/> This paper apply similar idea of randomized smoothing into autoregressive generative modeling, which first modeling a smoothed data distribution and then denoise the sampled data.
 
 * [Defending Against Image Corruptions Through Adversarial Augmentations](https://arxiv.org/pdf/2104.01086.pdf) <br/> This paper proposes AdversarialAugment method to adversarially craft corrupted augmented images during training.
