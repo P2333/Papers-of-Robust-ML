@@ -179,6 +179,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Empirical'></a>
 ## Empirical Analysis
+* [Adversarial Robustness Through the Lens of Convolutional Filters](https://openaccess.thecvf.com/content/CVPR2022W/ArtOfRobust/html/Gavrikov_Adversarial_Robustness_Through_the_Lens_of_Convolutional_Filters_CVPRW_2022_paper.html) (CVPR-W 2022) <br/> This paper compares the learned convolution filters of a large amount of pretrained robust models against identical networks trained without adversarial defenses. The authors show that robust models form more orthogonal, diverse, and less sparse convolution filters, but differences diminish with increasing dataset complexity.
+
 * [PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures](https://arxiv.org/abs/2112.05135) (CVPR 2022) <br/> This paper uses dreamlike pictures as data augmentation to generally improve robustness (remove texture-based confounders).
 
 * [How Benign is Benign Overfitting](https://openreview.net/pdf?id=g-wu9TMPODo) (ICLR 2021) <br/> This paper shows that adversarial vulnerability may come from bad
