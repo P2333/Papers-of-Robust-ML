@@ -179,6 +179,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Empirical'></a>
 ## Empirical Analysis
+* [CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters](https://openaccess.thecvf.com/content/CVPR2022/html/Gavrikov_CNN_Filter_DB_An_Empirical_Investigation_of_Trained_Convolutional_Filters_CVPR_2022_paper.html)  (CVPR 2022) <br/> This paper performs an empricial analysis of learned convolution filters in various CNNs and shows that robust models learn less sparse and more diverse convolutions.
+
 * [PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures](https://arxiv.org/abs/2112.05135) (CVPR 2022) <br/> This paper uses dreamlike pictures as data augmentation to generally improve robustness (remove texture-based confounders).
 
 * [How Benign is Benign Overfitting](https://openreview.net/pdf?id=g-wu9TMPODo) (ICLR 2021) <br/> This paper shows that adversarial vulnerability may come from bad
