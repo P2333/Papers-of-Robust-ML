@@ -179,6 +179,8 @@ This paper shows adversarial robustness can transfer and that adversarial pretra
 
 <a id='Empirical'></a>
 ## Empirical Analysis
+* [Aliasing and adversarial robust generalization of CNNs](https://link.springer.com/article/10.1007/s10994-022-06222-8) (ECML 2022) This paper empirically demonstrates that adversarial robust models learn to downsample more accurate and thus suffer significantly less from downsampling artifacts, aka. aliasing, than simple non-robust baseline models.
+
 * [Adversarial Robustness Through the Lens of Convolutional Filters](https://openaccess.thecvf.com/content/CVPR2022W/ArtOfRobust/html/Gavrikov_Adversarial_Robustness_Through_the_Lens_of_Convolutional_Filters_CVPRW_2022_paper.html) (CVPR-W 2022) <br/> This paper compares the learned convolution filters of a large amount of pretrained robust models against identical networks trained without adversarial defenses. The authors show that robust models form more orthogonal, diverse, and less sparse convolution filters, but differences diminish with increasing dataset complexity.
 
 * [CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters](https://openaccess.thecvf.com/content/CVPR2022/html/Gavrikov_CNN_Filter_DB_An_Empirical_Investigation_of_Trained_Convolutional_Filters_CVPR_2022_paper.html)  (CVPR 2022) <br/> This paper performs an empirical analysis of learned 3x3 convolution filters in various CNNs and shows that robust models learn less sparse and more diverse convolution filters.
