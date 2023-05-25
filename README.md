@@ -20,6 +20,8 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 
 <a id='General_training'></a>
 ## General Defenses (training phase)
+* [Better Diffusion Models Further Improve Adversarial Training](https://arxiv.org/pdf/2302.04638.pdf) (ICML 2023) <br/> This paper advocate that better diffusion models such as EDM can further improve adversarial training beyond using DDPM, which achieves new state-of-the-art performance on CIFAR-10/100 as listed on RobustBench.
+
 * [FrequencyLowCut Pooling -- Plug & Play against Catastrophic Overfitting](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136740036.pdf) (ECCV 2022) <br/> This paper proposes a novel aliasing-free downsampling layer to prevent catastrophic overfitting during simple Fast Gradient Sign Method (FGSM) adversarial training. 
 
 * [Robustness and Accuracy Could Be Reconcilable by (Proper) Definition](https://arxiv.org/pdf/2202.10103.pdf) (ICML 2022) <br/> This paper advocate that robustness and accuracy are not at odds, as long as we slightly modify the definition of robust error. Efficient ways of optimizating the new SCORE objective is provided.
